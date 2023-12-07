@@ -1,9 +1,6 @@
-<script setup lang="ts">
-</script>
-
 <template>
 	<div class="sidebar" :style="{ width:sidebarWidth + 'px' }">
-		<a href="#">About</a>
+		<router-link to="/about">About</router-link>
 		<a href="#">Services</a>
 		<a href="#">Clients</a>
 		<a href="#">Contact</a>
